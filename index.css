@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(ball.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-width{
+    
+    width: 90%;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #242572;
+    padding: 3rem 0;
+    border-radius: 15px;
+}
+.container {
+    display: flex;
+    justify-content:space-around ;
+
+}
+h3{
+    font-size: 43px;
+    margin:  30px 0 5px 0;
+    color: #ffff;
+
+
+}
+h4{
+    background-color: black;
+    width: 140px;
+    height: 90px;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-size: 90px;
+    margin:  0 0 15px 0;
+    padding: 12px 3px;
+    font-family: CursedTimerUlil-Aznm;
+    
+}
+button{
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+    height: 45px;
+    width: 45px;
+     background-color: #252650;
+    color:#9AABD8;
+    text-shadow: 0 0 6px 0;
+    font-family: CursedTimerUlil-Aznm;
+}
+#reset{
+    padding: 10px  20px  30px 20px ;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    height: 45px;
+    width: 75%;
+    background-color: #252650;
+    color:#9AABD8;
+    text-shadow: 0 0 4px 0;
+    font-family: CursedTimerUlil-Aznm;
+    margin: 20px 0 auto;
+}
+#reset:hover{
+   font-size: 33px;
+  text-shadow: 0 0 0 0 5px;
+}
+@media screen and (min-width: 768px) {
+    body{
+        margin: 8rem;
+    }
+}

@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body> 
+        <div class="div-width">
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <h4 id="count-el">0</h4>
+                <button onclick="add1()">+1</button>
+                <button onclick="add2()">+2</button>
+                <button onclick="add3()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h4 id="count-guest">0</h4>
+                <button onclick="increase1()">+1</button>
+                <button onclick="increase2()">+2</button>
+                <button onclick="increase3()">+3</button>
+            </div>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
